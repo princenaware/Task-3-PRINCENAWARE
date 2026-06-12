@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+
+    <main class="planner-box">
+        <header class="planner-header">
+            <h1>Prince's Task Planner</h1>
+            <p class="counter-text">Pending Tasks: <span class="js-task-count">0</span></p>
+        </header>
+
+        <section class="input-section">
+            <input type="text" class="js-task-input task-field" placeholder="Write your next task here...">
+            <button class="js-add-btn btn-add">Add Task</button>
+        </section>
+
+        <section class="list-section">
+            <ul class="js-task-list task-list">
+            </ul>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
