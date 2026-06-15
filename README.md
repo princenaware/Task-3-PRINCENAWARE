@@ -125,7 +125,7 @@ Add project screenshots to show the UI and app states.
 
 ![Completed Task](completed-task.png)
 
-```
+
 
 4. Commit the images and the README together if you store the project in version control.
 
